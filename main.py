@@ -1,4 +1,5 @@
- #-*-coding:utf-8-*-
+#-*-coding:utf-8-*-
+#Don't stealing
 qu = '\033[0;36m'
 hi = '\033[0;32m'
 tm = '\033[0;30m'
