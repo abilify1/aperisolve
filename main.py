@@ -189,7 +189,7 @@ if __name__ == "__main__":
    os.system('clear')
    banner()
    global input1
-   input1 = inquirer.prompt([inquirer.List('input1',message='Choose a option',choices=['Start','Setting','Gallery'],)])["input1"] 
+   input1 = inquirer.prompt([inquirer.List('input1',message='Choose a option',choices=['Start','Setting'],)])["input1"] 
    if input1 == "Start":
      start()
    elif input1 == "Setting":
